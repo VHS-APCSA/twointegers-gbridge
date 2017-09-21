@@ -57,7 +57,6 @@ public class TwoIntergers
 			quotient = 0.0;
 		}
 		return("Sum: " + sum + ", Difference: " + difference + ", product: " + product + ", quotient: " + quotient);
-		
 	}
 	public String larger()
 	{
@@ -78,6 +77,17 @@ public class TwoIntergers
 	public boolean even()
 	{
 		if(one % 2 > 0)
+		{
+			return false;
+		}
+		else
+		{
+			return true;
+		}
+	}
+	public boolean even2()
+	{
+		if(two % 2 > 0)
 		{
 			return false;
 		}
