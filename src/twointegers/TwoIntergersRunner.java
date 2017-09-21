@@ -19,8 +19,8 @@ public class TwoIntergersRunner
 		Boolean numbers3 = runner.even();
 		System.out.println("it's " + numbers3 + " that the first interger is even");
 		Boolean numbers4 = runner.even2();
-		System.out.println("it's " + numbers4 + " that the first interger is even");
+		System.out.println("it's " + numbers4 + " that the second interger is even");
 		Boolean numbers5 = runner.remainder();
-		System.out.println("it's " + numbers5 + " mthat the numbers are multiples");
+		System.out.println("it's " + numbers5 + " that the numbers are multiples");
 	}
 }

@@ -98,7 +98,7 @@ public class TwoIntergers
 	}
 	public boolean remainder()
 	{
-		if(one % two > 0)
+		if((one % two) * (two % one) > 0)
 		{
 			return false;
 		}
